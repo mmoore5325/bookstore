@@ -1,12 +1,23 @@
 {
   "name": "bookstore",
   "version": "1.0.0",
-  "description": "",
+  "description": "put in your gitignore any files that can be generated or installed",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmoore5325/bookstore.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmoore5325/bookstore/issues"
+  },
+  "homepage": "https://github.com/mmoore5325/bookstore#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "webpack": "^3.5.6"
+  }
 }
